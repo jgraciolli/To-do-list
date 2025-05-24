@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do page</title>
+    <link rel="stylesheet" href="../css/styles.css"/>    
+  </head>
+  <body>
+    <h1 id="main-title">To-do List</h1>
+    <div id="add-task-container">
+      <input type="text" id="new-task" placeholder="Add a new task..." />
+      <button id="add-new-task">Add</button>
+    </div>
+    <p id="input-msg" style="display: none;">Please enter a task!</p>
+    <div id="task-caption-container">
+      <span class="task-caption-span">
+        <img src="../img/pending-task.png" alt="Pending task" class="task-status"/>
+        <h3>Pending tasks:</h3>
+        <p id="pending-tasks" class="task-quantity">0</p>
+      </span>
+      <span class="task-caption-span">
+        <img src="../img/done-task.png" alt="Completed task" class="task-status"/>
+        <h3>Completed tasks:</h3>
+        <p id="completed-tasks" class="task-quantity">0</p>
+      </span>
+    </div>
+    <div id="clear-all-container">
+      <button>Clear all</button>
+      <span id="clear-all-line">        
+        <label style="display: none;">There are no tasks to delete!</label>
+      </span>      
+    </div>    
+    <div id="all-tasks">            
+      <div style="display: none;" id="task-element" class="task-container">
+        <img src="../img/pending-task.png" alt="Pending task" class="task-status" />
+        <input class="task-title" type="text"></input>
+        <div class="task-buttons">          
+          <button class="handle-task">Done</button>
+          <button class="delete-task">Delete</button>                                 
+        </div>
+      </div>
+    </div>    
+    <div id="modal" class="modal hidden">
+      <div class="modal-content">
+        <p>Are you sure you want to delete all tasks?</p>
+        <button id="confirm-clear">Yes</button>
+        <button id="cancel-clear">Cancel</button>
+      </div>
+    </div>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
