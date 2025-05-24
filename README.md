@@ -61,5 +61,5 @@ Create a web application where the user can easily manage their daily tasks. The
 
 So then I created a project that satisfies these demands.
 
-Note: for the 'Edit Task' Bonus feature, I decided to just leave the task field as a free text input
-for the user to type, instead of setting a double-click event as the GPT suggestion mentioned.
+Note: for the 'Edit Task' Bonus feature, I decided to just leave the task field 
+as a free text input for the user to type, instead of setting a double-click event as the GPT suggestion mentioned.
