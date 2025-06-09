@@ -1,5 +1,5 @@
 # To-do-list
-I created a to-do list page as an introduction web development project. Used HTML, JS and CSS only.
+I created a to-do list page as an introduction web development project. Used HTML, CSS and Javascript.
 
 I asked Chat-GPT to generate the project challenge and it's functionality demands, this was the result:
 
