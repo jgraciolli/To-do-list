@@ -57,7 +57,7 @@ Create a web application where the user can easily manage their daily tasks. The
 - Interactions with visual feedback (e.g., light animations, color changes)
 - Easy to add, view, complete, and delete tasks
 
-
+---
 
 So then I created a project that satisfies these demands.
 
